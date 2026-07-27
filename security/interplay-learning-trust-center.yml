@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.interplaylearning.com/
+url: https://trust.interplaylearning.com/
+certifications:
+- SOC 2 Type 2
+- TX-RAMP
+evidence:
+- source: https://trust.interplaylearning.com/
+  keywords:
+  - soc 2 type 2
+  - tx-ramp
+  - trust center

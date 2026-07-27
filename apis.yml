@@ -1,8 +1,14 @@
 aid: interplay-learning
 name: Interplay Learning
-description: 'Interplay Learning is a company surfaced as a portfolio company of sierra-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Interplay Learning is an Austin, Texas edtech company delivering always-on,
+  immersive skilled trades training through online video courses, 3D simulations, and
+  VR for HVAC, plumbing, electrical, facilities maintenance, and solar. Its SkillMill
+  platform has trained more than 500,000 workers to be job-ready, pairing hands-on
+  simulations with custom learning paths, certification prep, and skill assessments.
+  For employers, Interplay exposes an enterprise data-integration API plus SSO and LMS
+  integrations so training data can flow into an organization''s own systems; it publishes
+  no public self-serve developer portal or OpenAPI. Backed by Sierra Ventures. This
+  profile was enriched from the company''s public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/interplay-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.interplaylearning.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-05-at-8.14.17-PM-1024x470.png
 tags:
 - Company
 - Edtech
+- Skilled Trades
+- Training
+- Learning Management
+- Workforce Development
+- HVAC
+- Simulation
+- Virtual Reality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://interplaylearning.com/
+- type: Pricing
+  url: https://www.interplaylearning.com/pricing/
+- type: SignUp
+  url: https://www.interplaylearning.com/demo-request/
+- type: Login
+  url: https://skilledtrades.interplaylearning.com/catalog
+- type: PrivacyPolicy
+  url: https://www.interplaylearning.com/privacy/
+- type: TermsOfService
+  url: https://www.interplaylearning.com/terms/
+- type: Blog
+  url: https://www.interplaylearning.com/blog/
+- type: Support
+  url: https://get.help.interplaylearning.com/
+- type: TrustCenter
+  url: security/interplay-learning-trust-center.yml
+- type: Compliance
+  url: https://trust.interplaylearning.com/
+- type: DomainSecurity
+  url: security/interplay-learning-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
